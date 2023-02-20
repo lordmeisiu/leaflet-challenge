@@ -69,8 +69,7 @@ d3.json(url).then(data => {
         var place = properties.place;
         var magnitude = properties.mag;
 
-        // Current time
-        // var time = moment(properties.time);
+    
 
         // Create markers
         circles = L.circleMarker([latitude, longitude], {
